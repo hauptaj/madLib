@@ -1,21 +1,23 @@
-<!-- ng-model is the Angular binding. By using a value with dot notation it declares it as an object (doesn't need to be declared elsewhere) -->
-<input type="text" ng-model="story.ingVerb" placeholder="-ing Verb">
-<input type="text" ng-model="story.adj1" placeholder="Adjective">
-<input type="text" ng-model="story.adj2" placeholder="Adjective">
-<input type="text" ng-model="story.plNoun1" placeholder="Plural Noun">
-<input type="text" ng-model="story.adj3" placeholder="Adjective">
-<input type="text" ng-model="story.person" placeholder="Person">
-<input type="text" ng-model="story.plNoun2" placeholder="Plural Noun">
-<input type="text" ng-model="story.place" placeholder="Place">
-<input type="text" ng-model="story.adj4" placeholder="Adjective">
-<input type="text" ng-model="story.celeb" placeholder="Celebrity">
-<input type="text" ng-model="story.noun1" placeholder="Noun">
-<input type="text" ng-model="story.plNoun3" placeholder="Plural Noun">
-<input type="text" ng-model="story.adj5" placeholder="Adjective">
-<input type="text" ng-model="story.plNoun4" placeholder="Plural Noun">
-<input type="text" ng-model="story.plNoun5" placeholder="Plural Noun">
-<input type="text" ng-model="story.noun2" placeholder="Noun">
-<input type="text" ng-model="story.plNoun6" placeholder="Plural Noun>">
+<div class="form">
+    <!-- ng-model is the Angular binding. By using a value with dot notation it declares it as an object (doesn't need to be declared elsewhere) -->
+    <label for="ingVerb"><span>Verb ending in "ing":</span><input type="text" ng-model="story.ingVerb"</label>
+    <label for="adj1"><span>Adjective:</span><input type="text" ng-model="story.adj1"</label>
+    <label for="adj2"><span>Adjective:</span><input type="text" ng-model="story.adj2"</label>
+    <label for="plNoun1"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun1"</label>
+    <label for="adj3"><span>Adjective:</span><input type="text" ng-model="story.adj3"</label>
+    <label for="person"><span>Person's Name:</span><input type="text" ng-model="story.person"/label>
+    <label for="plNoun2"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun2"</label>
+    <label for="place"><span>Place:</span><input type="text" ng-model="story.place"</label>
+    <label for="adj4"><span>Adjective:</span><input type="text" ng-model="story.adj4"</label>
+    <label for="celeb"><span>Celebrity:</span><input type="text" ng-model="story.celeb"</label>
+    <label for="noun1"><span>Noun:</span><input type="text" ng-model="story.noun1"</label>
+    <label for="plNoun3"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun3"</label>
+    <label for="adj5"><span>Adjective:</span><input type="text" ng-model="story.adj5"</label>
+    <label for="plNoun4"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun4"</label>
+    <label for="plNoun5"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun5"</label>
+    <label for="noun2"><span>Noun:</span><input type="text" ng-model="story.noun2"</label>
+    <label for"plNoun6"><span>Plural Noun:</span><input type="text" ng-model="story.plNoun6"</label>
 
-<button type="button" ng-click="grabData(story)">Submit</button>
-<!-- similar to above. Function is being declared with ng-click. -->
+    <button type="button" ng-click="grabData(story)">Submit</button>
+    <!-- similar to above. Function is being declared with ng-click. -->
+</div>
