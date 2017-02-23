@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light');
 
+.nav {
+  background-color: black;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  height: 25px;
+}
+
+.nav a{
+  color: white;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.story {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 450px;
+  margin: 20px auto 0px auto;
+  line-height: 200%;
+}
+
+.outWord {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 24px;
+  color: cornflowerblue;
+}
+
 .form{
     width: 450px;
     font-size: 16px;
-    background: #495C70;
+    background: white;
     padding: 30px 30px 15px 30px;
     border: 5px solid #53687E;
     margin-top: 20px;
@@ -11,19 +44,23 @@
     margin-right: auto;
 }
 
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .form label
 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .form input[type=text]
 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 24px;
-    color: #fff;
+    color: cornflowerblue;
     text-align: center;
 }
 .form label {
@@ -39,7 +76,7 @@
 {
     background: transparent;
     border: none;
-    border-bottom: 1px dashed #83A4C5;
+    border-bottom: 2px dashed black;
     width: 275px;
     outline: none;
     padding: 0px 0px 0px 0px;
@@ -49,19 +86,20 @@
 
 .form input:focus
 {
-    border-bottom: 1px dashed #D9FFA9;
+    border-bottom: 1px dashed grey;
 }
 
 button{
-    background: #576E86;
-    border: none;
+    background: #fff;
+    /*border: none;*/
     padding: 8px 20px 8px 20px;
     border-radius: 5px;
-    color: #A8BACE;
+    color: #666;
     margin-top: 25px;
     font-size: 14px;
 
 }
 button:hover{
 background: #394D61;
+color: white;
 }
